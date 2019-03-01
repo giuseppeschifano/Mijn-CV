@@ -1,2 +1,2 @@
 # Mijn-CV
-create CV HTML
+https://giuseppeschifano.github.io/Mijn-CV/
