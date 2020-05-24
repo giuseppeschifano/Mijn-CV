@@ -6,13 +6,13 @@
 
 body {
 font-family: 'Arial', sans-serif;
-color: #414141;            /* Dark gray */
+color: darkslategrey;            /* Dark gray */
 line-height: 1.6;
 display: grid;
 
 grid-template: 
-"header header header header" 10em
-"hero hero hero hero" 30vh
+"header header header header" 5em
+"hero hero hero hero" 20vh
 ". sidebar main ." auto
 "footer footer footer footer" 5em 
 / 1fr minmax(15em, 3fr) minmax(30em, 6fr) 1fr;
@@ -52,7 +52,7 @@ i, #icons {
 .image1 {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("giu.jpg"); */
 
-  height: 300px;
+  height: 100px;
   width: 1200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,14 +74,14 @@ i, #icons {
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: black;
+  color: darkslategrey;
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
 }
 
 .hero-text button:hover {
-  background-color: #555;
+  background-color: darkslategrey;
   color: white;
 }
 
